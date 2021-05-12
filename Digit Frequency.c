@@ -4,7 +4,8 @@ int main()
 {
 	char s[100];
 	int c0=0,c1=0,c2=0,c3=0,c4=0,c5=0,c6=0,c7=0,c8=0,c9=0,i,n;
-	scanf("%s",s);
+	printf("Enter a String: ");
+	scanf("%[^\n]",s);
 	n=strlen(s);
 	for(i=0;i<n;i++)
 	{

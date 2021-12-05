@@ -22,6 +22,7 @@ def hurdleRace(k, height):
         return 0
     else:
         return a-k
+    {single line code ---> return max(max(a-k),0) }
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
